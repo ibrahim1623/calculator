@@ -1,1 +1,1 @@
-# calculator with basic arithmatic operations using HTML, CSS, and JavaScript.
+# Calculator with basic arithmetic operations using HTML, CSS, and JavaScript.
