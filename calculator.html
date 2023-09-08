@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+  <div>
+    <img src="https://img.freepik.com/free-vector/cartoon-math-background_23-2148152446.jpg?w=740&t=st=1685617854~exp=1685618454~hmac=137d87103c361347baffc02b839e41d21078104ff209a6b4c2cb22d7f4a03995">
+  <table>
+    <tr>
+      <td><input type="text" id="screen"></input></td>
+      <td >
+        <button onclick="clearData()" class="clear_buttons">AC</button>
+        <button onclick="clearOne()" class="clear_buttons">C</button>
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td><button onclick = "printinbar(7)" class="number">7</button></td>
+      <td><button onclick = "printinbar(8)" class="number">8</button></td>
+      <td><button onclick = "printinbar(9)" class="number">9</button></td>
+      <td><button onclick = "printinbar('+')" class="sign">+</button></td>
+    </tr>
+    <tr>
+      <td><button onclick = "printinbar(4)" class="number">4</button></td>
+      <td><button onclick = "printinbar(5)" class="number">5</button></td>
+      <td><button onclick = "printinbar(6)" class="number">6</button></td>
+      <td><button onclick = "printinbar('-')" class="sign">-</button></td>
+    </tr>  
+    <tr>
+      <td><button onclick = "printinbar(1)" class="number">1</button></td>
+      <td><button onclick = "printinbar(2)" class="number">2</button></td>
+      <td><button onclick = "printinbar(3)" class="number">3</button></td>
+      <td><button onclick = "printinbar('/')" class="sign">/</button></td>
+    </tr>
+    <tr>
+      <td><button onclick = "printinbar('.')" class="number">.</button></td>
+      <td><button onclick = "printinbar(0)" class="number">0</button></td>
+      <td><button onclick = "get_result()" class="sign"> = </button></td>
+      <td><button onclick = "printinbar('*')" class="sign">*</button></td>
+    </tr>    
+  </table>
+  </div>
+  <script src="javascript.js"></script>
+</body>
+</html>
